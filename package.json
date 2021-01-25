@@ -1,0 +1,28 @@
+{
+  "name": "marvel-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cunhasbia/marvel-frontend.git",
+  "author": "Bianca Cunha",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-loader": "^8.1.0",
+    "cors": "^2.8.5",
+    "sweetalert": "^2.1.2"
+  }
+}

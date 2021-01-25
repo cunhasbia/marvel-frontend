@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.navbar {
+    height: 6rem;
+}
+
+#main-content {
+    margin-top: 7.5rem;
+    margin-bottom: 2.2rem;
+    min-height: 71vh;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.card-img-top {
+    height: 13rem;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.card-img-top:hover {
+    opacity: .5;
+}
+
+.pagination .page-link {
+    color: #000;
+}
+
+.pagination .page-link:hover {
+    color: red;
+}
+
+footer {
+    font-size: clamp(.8rem, 1.5vw, 1rem);
+}

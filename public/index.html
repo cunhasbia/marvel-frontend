@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Bianca Cunha">
+  <title>Marvel</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/372ad6816f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--  HEADER / NAV  -->
+  <header>
+    <nav class="navbar navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <a href="/" class="navbar-brand" id="homepage">
+          <img src="./img/logo.png" alt="Marvel" width="150">
+        </a>
+        <form class="d-flex">
+          <input class="form-control" type="search" id="input-search" placeholder="Search characters...">
+          <button class="btn bg-dark text-white" id="button-search" type="button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <!--  MAIN CONTENT  -->
+  <main id="main-content" class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex flex-wrap" id="characters-list"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 mt-5 d-flex justify-content-center">
+        <nav>
+          <ul class="pagination"></ul>
+        </nav>
+      </div>
+    </div>
+  </main>
+
+  <!--  FOOTER  -->
+  <footer class="container-fluid bg-dark text-white p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-between">
+          <div>
+            <span>&copy; Marvel 2020 | Developed by Bianca Cunha</span>
+          </div>
+          <div>
+            <a href="https://developer.marvel.com/" target="_blank"><i class="fas fa-home text-white mr-2"></i></a>
+            <a href="https://linkedin.com/in/biancascunha" target="_blank"><i class="fab fa-linkedin text-white mr-2"></i></a>
+            <a href="https://github.com/cunhasbia" target="_blank"><i class="fab fa-github text-white mr-2"></i></a>
+            <a href="mailto:biancunha@gmail.com" target="_blank"><i class="fas fa-envelope text-white mr-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./bundle.js"></script>
+</body>
+</html>
