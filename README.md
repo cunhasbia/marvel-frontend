@@ -4,8 +4,7 @@
 
 # Marvel App | front-end
 
-Front-end of Marvel application - SPA that consumes a Rest API from the back-end developed using the data obtained by the official [Marvel Comics API](https://developer.marvel.com/docs).
-Developed for a challenge during studies at Growdev.
+Front-end of Marvel application - SPA that consumes a Rest API from the back-end developed using the data obtained by the official [Marvel Comics API](https://developer.marvel.com/docs). Project developed for a challenge during studies at Growdev.
 
 You can also [click here](https://github.com/cunhasbia/marvel-backend) to go to the **back-end** repository of this application. Run both projects together.
 
